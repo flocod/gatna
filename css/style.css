@@ -20,6 +20,7 @@
   --fondlow: gray;
   --background: #1d1b27;
   --jakatar: "Plus Jakarta Sans";
+  --gilroy: "Gilroy";
 }
 
 * {
@@ -90,7 +91,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: gilroyR;
+  font-family: var(--gilroy);
+  font-weight: 400;
   font-size: 14px;
   background: var(--background);
   color: white;
@@ -232,7 +234,8 @@ body {
 }
 .struct .inner_container .left .btn_container .btn_item {
   border-radius: 0.54413em;
-  font-family: gilroyR;
+  font-family: var(--gilroy);
+  font-weight: 400;
   -webkit-box-shadow: 0px 6.96471px 13.92941px 0px rgba(70, 47, 207, 0.26);
           box-shadow: 0px 6.96471px 13.92941px 0px rgba(70, 47, 207, 0.26);
   font-size: 1.3em;
@@ -328,19 +331,19 @@ body {
 .struct .inner_container .left .counter_container .counter .value {
   color: #fff;
   text-align: center;
-  font-family: gilroyBold;
+  font-family: var(--gilroy);
+  font-weight: bold;
   font-size: 2em;
   font-style: normal;
-  font-weight: 400;
   letter-spacing: -0.01719rem;
 }
 .struct .inner_container .left .counter_container .counter .label {
   color: #fff;
   text-align: center;
-  font-family: gilroyMedium;
+  font-family: var(--gilroy);
+  font-weight: 500;
   font-size: 1.1em;
   font-style: normal;
-  font-weight: 400;
   opacity: 0.8;
   letter-spacing: -0.01719rem;
 }
