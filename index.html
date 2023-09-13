@@ -1,0 +1,152 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#1d1b27" />
+    <!-- Primary Meta Tags -->
+    <title>gatna — We will be live soon...</title>
+    <meta
+      name="title"
+      content="gatna — We will be live soon..."
+    />
+    <meta
+      name="description"
+      content="We happy to see the interest you have for our platform. Please stay tuned as we are working on our site."
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://flocod.github.io/gatna/" />
+    <meta
+      property="og:title"
+      content="gatna — We will be live soon..."
+    />
+    <meta
+      property="og:description"
+      content="We happy to see the interest you have for our platform. Please stay tuned as we are working on our site."
+    />
+    <meta
+      property="og:image"
+      content="https://flocod.github.io/gatna/images/meta.jpg"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:url"
+      content="https://flocod.github.io/gatna/"
+    />
+    <meta
+      property="twitter:title"
+      content="gatna — We will be live soon..."
+    />
+    <meta
+      property="twitter:description"
+      content="We happy to see the interest you have for our platform. Please stay tuned as we are working on our site."
+    />
+    <meta
+      property="twitter:image"
+      content="https://flocod.github.io/gatna/images/meta.jpg"
+    />
+
+    <!-- Meta Tags Generated with https://metatags.io -->
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body jour="2023-12-31T23:59:59">
+    <img src="./images/bigcircle.svg" alt="" class="bigcircle" />
+
+    <img class="lamp" src="./images/lamp.png" alt="" />
+
+    <div class="struct">
+      <div class="inner_container">
+        <div class="left">
+          <div class="logo">
+            <img src="./images/logo.png" alt="" />
+          </div>
+          <h1>We will be live soon !</h1>
+          <p>
+            We happy to see the interest you have for our platform. Please stay
+            tuned as we are working on our site.
+          </p>
+
+          <div class="btn_container">
+            <button class="btn_item btn1">
+              <span class="text">Contact us</span>
+              <img src="./images/envelope.svg" alt="" />
+            </button>
+            <button class="btn_item btn2">
+              <img src="./images/play.svg" alt="" />
+              <span class="text">Play presentation video</span>
+            </button>
+          </div>
+
+          <div class="counter_container">
+            <div class="counter">
+              <div id="days" class="value">178</div>
+              <div class="label">DAYS</div>
+            </div>
+            <div class="counter">
+              <div id="hours" class="value">178</div>
+              <div class="label">HOURS</div>
+            </div>
+            <div class="counter">
+              <div id="minutes" class="value">178</div>
+              <div class="label">MINUTES</div>
+            </div>
+            <div class="counter">
+              <div id="seconds" class="value">178</div>
+              <div class="label">SECONDS</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="right">
+          <img class="imagedesk" src="./images/imagedesk.svg" alt="" />
+
+          <img src="./images/light.svg" alt="" class="light" />
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="left">
+        Copyrights 2023. All rights reserved.
+        <a href="https://gatna.io/" class="link"> gatna.io </a> a Crypto
+        Solutions & Consulting product
+      </div>
+      <div class="social_container">
+        <div class="social">
+          <img src="./images/facebook.svg" alt="" />
+        </div>
+        <div class="social">
+          <img src="./images/linkedin.svg" alt="" />
+        </div>
+        <div class="social">
+          <img src="./images/twitter.svg" alt="" />
+        </div>
+        <div class="social">
+          <img src="./images/youtube.svg" alt="" />
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script>
+      // no import necessary
+      gsap.from(".struct *:not(.light, .struct)", {
+        opacity: 0,
+        y: 50,
+        stagger: 0.054,
+        duration: 1,
+      });
+      gsap.from("footer *:not(.light, .struct)", {
+        opacity: 0,
+        y: 50,
+        stagger: 0.03,
+        duration: 3,
+      });
+    </script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
