@@ -205,7 +205,6 @@ body {
         -ms-flex-pack: left;
             justify-content: left;
     width: auto;
-    text-align: center;
   }
 }
 .struct .inner_container .left .btn_container {
@@ -533,6 +532,21 @@ footer .social_container .social:hover {
     width: 30vw;
     bottom: 40vh;
     top: auto;
+  }
+}
+@media screen and (max-width: 1000px) and (max-height: 858px) {
+  .lamp {
+    bottom: 45vh;
+  }
+}
+@media screen and (max-width: 1000px) and (max-height: 750px) {
+  .lamp {
+    bottom: 60vh;
+  }
+}
+@media screen and (max-width: 1000px) and (max-height: 560px) {
+  .lamp {
+    bottom: 75vh;
   }
 }
 @media all and (max-width: 700px) {

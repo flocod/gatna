@@ -173,7 +173,6 @@ body {
           word-spacing: normal;
           justify-content: left;
           width: auto;
-          text-align: center;
         }
       }
 
@@ -447,6 +446,16 @@ footer {
     width: 30vw;
     bottom: 40vh;
     top: auto;
+  }
+
+  @media screen and (max-width: 1000px) and (max-height: 858px) {
+    bottom: 45vh;
+  }
+  @media screen and (max-width: 1000px) and (max-height:750px) {
+    bottom: 60vh;
+  }
+  @media screen and (max-width: 1000px) and (max-height:560px) {
+    bottom: 75vh;
   }
 
   @media all and (max-width: 700px) {
